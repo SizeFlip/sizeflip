@@ -920,6 +920,7 @@ function populateSizes() {
 }
 
 function buildAffBlock(cat) {
+  return ''; // Affiliazione temporaneamente disabilitata
   const links = AFF[cat] || [];
   if (!links.length) return '';
   const btns = links.map(l => `
